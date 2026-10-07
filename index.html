@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Política de Privacidad – SOS Local</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+                   'Helvetica Neue', Arial, sans-serif;
+      background: #121212;
+      color: #CCCCCC;
+      line-height: 1.75;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .topbar {
+      background: #000000;
+      padding: 28px 24px 20px;
+      text-align: center;
+      border-bottom: 1px solid #1e1e1e;
+    }
+    .topbar h1 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 4px;
+    }
+    .topbar .sub {
+      font-size: 0.78rem;
+      color: #666666;
+    }
+
+    /* ── App ID card ── */
+    .app-card {
+      max-width: 720px;
+      margin: 20px auto 0;
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-left: 3px solid #ecb540;
+      border-radius: 8px;
+      padding: 14px 18px;
+      font-size: 0.8rem;
+      color: #888888;
+      line-height: 2;
+    }
+    .app-card strong { color: #CCCCCC; }
+    .tag {
+      display: inline-block;
+      background: rgba(236,181,64,0.12);
+      border: 1px solid rgba(236,181,64,0.3);
+      border-radius: 4px;
+      padding: 1px 6px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #ecb540;
+      font-family: monospace;
+    }
+
+    /* ── Main content ── */
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 28px 20px 72px;
+    }
+
+    .main-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+
+    /* ── Section ── */
+    .section { margin-bottom: 24px; }
+
+    .section-title {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #ecb540;
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+
+    .section-body {
+      font-size: 0.875rem;
+      color: #CCCCCC;
+      line-height: 1.75;
+    }
+
+    .section-body p { margin-bottom: 10px; }
+    .section-body p:last-child { margin-bottom: 0; }
+
+    .section-body ul {
+      list-style: none;
+      margin: 6px 0 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .section-body li {
+      padding-left: 16px;
+      position: relative;
+    }
+    .section-body li::before {
+      content: '-';
+      position: absolute;
+      left: 0;
+      color: #ecb540;
+      font-weight: 700;
+    }
+    .section-body li ul { margin: 6px 0 0 12px; }
+    .section-body li ul li::before { content: '·'; color: #555; }
+
+    strong { color: #FFFFFF; font-weight: 600; }
+    em { color: #888888; font-style: normal; }
+    a { color: #ecb540; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .callout {
+      background: #1a1a1a;
+      border-left: 3px solid #ecb540;
+      padding: 12px 16px;
+      border-radius: 0 6px 6px 0;
+      margin: 10px 0;
+      font-size: 0.85rem;
+      color: #CCCCCC;
+    }
+    .callout-blue { border-left-color: #3b82f6; }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #1e1e1e;
+      margin: 8px 0 20px;
+    }
+
+    /* ── Footer ── */
+    .footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #1e1e1e;
+      color: #444444;
+      font-size: 0.78rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <h1>Política de Privacidad — SOS Local</h1>
+    <p class="sub">Última actualización: Julio 2026 &nbsp;·&nbsp; República Argentina</p>
+    <div class="app-card">
+      <strong>Aplicación:</strong> SOS Local – Emergencia Local &nbsp;·&nbsp;
+      <strong>Bundle ID:</strong> <span class="tag">com.soslocal.app</span><br/>
+      <strong>Plataforma:</strong> Google Play Store &nbsp;·&nbsp;
+      <strong>Cuenta de publicación:</strong> Esli Tejeda<br/>
+      <strong>Desarrollador:</strong> CatDeveloper32 &nbsp;·&nbsp;
+      <a href="mailto:catdeveloper32@gmail.com">catdeveloper32@gmail.com</a><br/>
+      <strong>Soporte y eliminación de cuenta:</strong>
+      <a href="mailto:soporte@emergencialocal.app">soporte@emergencialocal.app</a>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <p class="main-title">Política de Privacidad de Emergencia Local</p>
+
+    <p class="section-body" style="margin-bottom:24px;">
+      En <strong>SOS Local – Emergencia Local</strong> tomamos muy en serio la seguridad
+      y privacidad de nuestra comunidad de usuarios. De conformidad con la
+      <strong>Ley N.° 25.326 de Protección de Datos Personales</strong> de la República
+      Argentina, esta Política describe qué datos recopilamos, cómo los usamos y los
+      mecanismos disponibles para que puedas ejercer tus derechos plenamente.
+    </p>
+
+    <hr class="divider"/>
+
+    <!-- 1 -->
+    <div class="section">
+      <p class="section-title">1. Datos Personales que Recopilamos</p>
+      <div class="section-body">
+        <p>Para el correcto funcionamiento técnico, operativo y de seguridad de la App recopilamos la siguiente información personal:</p>
+        <ul>
+          <li><strong>Identificación y Contacto:</strong> Nombre completo, DNI, dirección física, número de teléfono celular.</li>
+          <li><strong>Credenciales de Autenticación:</strong> Correo electrónico (opcional) y contraseñas almacenadas con hash criptográfico seguro.</li>
+          <li><strong>Datos de Geolocalización:</strong> Ubicación precisa del dispositivo para la asignación al barrio correspondiente.</li>
+          <li><strong>Token de Notificaciones Push:</strong> Identificador del dispositivo (Expo Push Token) para el envío de alertas en tiempo real.</li>
+          <li><strong>Datos de Alertas Especiales:</strong>
+            <ul>
+              <li><em>Alerta Menor Perdido:</em> Nombre, edad, descripción física, vestimenta y área de desaparición.</li>
+              <li><em>Protocolo Ámbar:</em> Nombre y descripción de la situación, con acceso exclusivo para personal autorizado y corporaciones policiales habilitadas.</li>
+            </ul>
+          </li>
+          <li><strong>Información Médica Opcional:</strong> Datos de salud, alergias, medicación y contacto de emergencia, aportados voluntariamente para uso exclusivo en emergencias.</li>
+          <li><strong>Mensajes del Chat Vecinal:</strong> Mensajes de texto del chat grupal del barrio, almacenados de forma segura en servidores de Supabase.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="section">
+      <p class="section-title">2. Finalidades del Uso de la Información</p>
+      <div class="section-body">
+        <p>Los datos recopilados se utilizan exclusivamente para:</p>
+        <ul>
+          <li><strong>Gestión Operativa de Alertas Vecinales:</strong> Identificar la ubicación del usuario y activar dispositivos físicos de seguridad (sirenas y balizas).</li>
+          <li><strong>Alertas de Menor Perdido:</strong> Difundir información esencial a todos los usuarios del área para ampliar la búsqueda comunitaria.</li>
+          <li><strong>Protocolo Ámbar:</strong> Enviar reportes cifrados y confidenciales al equipo de Emergencia Local y, cuando corresponda, a corporaciones policiales autorizadas.</li>
+          <li><strong>Verificación de Identidad:</strong> Garantizar la autenticidad de los participantes y prevenir el uso indebido de alertas.</li>
+          <li><strong>Notificaciones Push:</strong> Enviar alertas, seguimientos y mensajes del chat vecinal en tiempo real.</li>
+          <li><strong>Chat Vecinal:</strong> Facilitar la comunicación entre vecinos del mismo barrio.</li>
+          <li><strong>Mejora del Servicio:</strong> Analizar estadísticas de uso de forma completamente anonimizada.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="section">
+      <p class="section-title">3. Geolocalización</p>
+      <div class="section-body">
+        <p>La App utiliza la geolocalización del dispositivo para:</p>
+        <ul>
+          <li>Asignar al usuario a su barrio correspondiente y dirigir alertas al sector adecuado.</li>
+          <li>Incluir la ubicación del área de desaparición en alertas de menor perdido.</li>
+          <li>Facilitar la intervención precisa de las autoridades en el Protocolo Ámbar.</li>
+        </ul>
+        <p>La geolocalización se trata con estricta confidencialidad y no se comparte con terceros, salvo requerimiento legal o consentimiento explícito del usuario.</p>
+      </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="section">
+      <p class="section-title">4. Compartición de Datos con Terceros</p>
+      <div class="section-body">
+        <p>No vendemos, alquilamos ni cedemos datos personales a terceros con fines comerciales. Los datos pueden ser compartidos únicamente con:</p>
+        <ul>
+          <li><strong>Corporaciones policiales autorizadas:</strong> Exclusivamente en el contexto del Protocolo Ámbar, bajo cifrado avanzado.</li>
+          <li><strong>Proveedores de infraestructura tecnológica:</strong>
+            <ul>
+              <li>Google Firebase — base de datos, autenticación y funciones en la nube (Google LLC, EE.UU.)</li>
+              <li>Supabase — almacenamiento del chat vecinal (Supabase Inc., EE.UU.)</li>
+              <li>Expo Push Notifications — envío de notificaciones (Expo Inc., EE.UU.)</li>
+            </ul>
+            Estos proveedores actúan como encargados del tratamiento bajo acuerdos de confidencialidad y políticas de privacidad propias.
+          </li>
+          <li><strong>Autoridades competentes argentinas:</strong> Cuando la ley N.° 25.326 u otra normativa aplicable lo exija.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="section">
+      <p class="section-title">5. Solicitud de Eliminación de Cuenta y Datos Asociados</p>
+      <div class="section-body">
+        <div class="callout">
+          En cumplimiento estricto con las directrices de Google Play Store y el derecho de supresión de la Ley de Protección de Datos Personales, garantizamos que cualquier Usuario puede revocar su consentimiento y solicitar el borrado completo de su cuenta y registros en cualquier momento.
+        </div>
+        <p><strong>Métodos disponibles para solicitar la eliminación:</strong></p>
+        <ul>
+          <li><strong>Desde la Aplicación Móvil:</strong> Dirigite al menú, accedé a <em>Cuenta &gt; Eliminar Cuenta</em> y confirmá la acción completando los pasos de verificación de identidad.</li>
+          <li><strong>Por Correo Electrónico:</strong> Si ya no disponés de la app instalada, enviá una solicitud expresa a <a href="mailto:soporte@emergencialocal.app">soporte@emergencialocal.app</a> indicando tu nombre completo, DNI y el correo o teléfono con el que te registraste.</li>
+        </ul>
+        <p><strong>Datos que se eliminarán de forma permanente:</strong></p>
+        <ul>
+          <li>Perfil de usuario completo (nombre, DNI, dirección, teléfono y credenciales de acceso).</li>
+          <li>Vinculación geográfica con sectores del barrio y nodos de alarmas vecinales.</li>
+          <li>Historial de alertas comunitarias genéricas asociadas a tu identificador.</li>
+          <li>Mensajes del chat vecinal asociados a tu cuenta.</li>
+          <li>Información médica opcional y contacto de emergencia.</li>
+        </ul>
+        <p><strong>Períodos de retención adicionales:</strong></p>
+        <ul>
+          <li>El proceso de supresión estándar se completará en un plazo máximo de <strong>10 días hábiles</strong> posteriores a la verificación.</li>
+          <li>Los datos de <strong>Alertas de Menor Perdido activos</strong> se conservan durante el proceso de búsqueda. Al confirmarse la localización, se eliminan de las pantallas activas y solo se archivan bajo bloqueo estricto si una orden judicial lo requiere.</li>
+          <li>Los registros del <strong>Protocolo Ámbar</strong> vinculados a investigaciones en curso no se borrarán inmediatamente. Se mantendrán cifrados conforme a los plazos legales aplicables y se destruirán de forma irreversible al finalizarlos.</li>
+          <li>Los <strong>datos analíticos</strong> se conservarán de forma 100% anonimizada —sin posibilidad técnica de reversión— únicamente para estadísticas de rendimiento del sistema.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 6 -->
+    <div class="section">
+      <p class="section-title">6. Seguridad de los Datos</p>
+      <div class="section-body">
+        <ul>
+          <li>Contraseñas almacenadas con hash seguro (Firebase Authentication).</li>
+          <li>Comunicaciones cifradas mediante HTTPS/TLS en todo momento.</li>
+          <li>El Protocolo Ámbar utiliza cifrado avanzado con acceso restringido a personal autorizado.</li>
+          <li>Reglas de seguridad en base de datos que limitan el acceso según el rol del usuario.</li>
+          <li>Tokens de sesión almacenados de forma segura en el dispositivo (SecureStore).</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 7 -->
+    <div class="section">
+      <p class="section-title">7. Derechos del Usuario — Ley N.° 25.326</p>
+      <div class="section-body">
+        <p>El usuario tiene derecho a:</p>
+        <ul>
+          <li><strong>Acceso:</strong> Solicitar información sobre los datos personales que tenemos sobre usted.</li>
+          <li><strong>Rectificación:</strong> Corregir datos inexactos o incompletos.</li>
+          <li><strong>Supresión:</strong> Solicitar la eliminación de su cuenta y datos (ver Sección 5).</li>
+          <li><strong>Oposición:</strong> Oponerse al tratamiento de sus datos en determinadas circunstancias.</li>
+        </ul>
+        <p>Para ejercer estos derechos: <a href="mailto:soporte@emergencialocal.app">soporte@emergencialocal.app</a></p>
+        <div class="callout callout-blue">
+          La <strong>Agencia de Acceso a la Información Pública (AAIP)</strong> es el órgano de control en Argentina. Puede presentar reclamaciones en <a href="https://www.argentina.gob.ar/aaip" target="_blank">www.argentina.gob.ar/aaip</a>.
+        </div>
+      </div>
+    </div>
+
+    <!-- 8 -->
+    <div class="section">
+      <p class="section-title">8. Uso por Menores de Edad</p>
+      <div class="section-body">
+        <p>La App no está dirigida a menores de 13 años. Las cuentas de menores deben ser gestionadas por un adulto responsable. Emergencia Local se reserva el derecho de dar de baja cuentas utilizadas por menores sin supervisión adulta, previa notificación.</p>
+      </div>
+    </div>
+
+    <!-- 9 -->
+    <div class="section">
+      <p class="section-title">9. Cambios en esta Política</p>
+      <div class="section-body">
+        <p>Nos reservamos el derecho de actualizar esta Política cuando sea necesario. Las modificaciones serán notificadas mediante la App con al menos 15 días de antelación. El uso continuado de la App tras la notificación implica la aceptación de los cambios.</p>
+      </div>
+    </div>
+
+    <!-- 10 -->
+    <div class="section">
+      <p class="section-title">10. Contacto</p>
+      <div class="section-body">
+        <ul>
+          <li><strong>Aplicación:</strong> SOS Local – Emergencia Local &nbsp;<span class="tag">com.soslocal.app</span></li>
+          <li><strong>Cuenta de publicación:</strong> Esli Tejeda</li>
+          <li><strong>Desarrollador:</strong> CatDeveloper32 &nbsp;·&nbsp; <a href="mailto:catdeveloper32@gmail.com">catdeveloper32@gmail.com</a></li>
+          <li><strong>Soporte y eliminación de cuenta:</strong> <a href="mailto:soporte@emergencialocal.app">soporte@emergencialocal.app</a></li>
+          <li><strong>País:</strong> República Argentina</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    © 2026 SOS Local – Emergencia Local · CatDeveloper32 · República Argentina
+  </div>
+
+</body>
+</html>
